@@ -1,5 +1,12 @@
 # vonage-wrapper
 
+## 0.0.4
+
+### Patch Changes
+
+- 3348427: validation fix
+- 02a697e: Allowed name input when `user.create`
+
 ## 0.0.3
 
 ### Patch Changes
