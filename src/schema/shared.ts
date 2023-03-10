@@ -150,7 +150,7 @@ const User = z.object({
    * Unique name for a user
    * Example: my_user_name
    */
-  name: z.string(),
+  name: z.string().optional(),
   /**
    * A string to be displayed as user name. It does not need to be unique
    * Example: My User Name
