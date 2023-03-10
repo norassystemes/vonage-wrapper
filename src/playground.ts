@@ -32,7 +32,7 @@ e4jDk8pVTMMqbxzgAypZS74=
 const test = async () => {
   const wrapper = vonage(
     {
-      applicationId: "1799f7a8-f0e7-4603-a359-05b9be1fa1f5",
+      applicationId: "1799f7a8-f0e7-4603-0000-05b9be1fa1f5",
       privateKey: key,
     },
     { logger: true }
