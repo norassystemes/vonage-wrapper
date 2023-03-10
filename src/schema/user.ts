@@ -6,7 +6,7 @@ const Create = z.object({
   input: _User.omit({
     id: true,
     /** Vonage override it anyway */
-    name: true,
+    // name: true,
   }),
 });
 const CreateResponse = _User;
