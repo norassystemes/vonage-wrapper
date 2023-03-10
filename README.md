@@ -2,6 +2,7 @@
 
 1. This is a simple wrapper around the official [Vonage Server SDK](https://github.com/Vonage/vonage-node-sdk/tree/3.x/packages/server-sdk)
 2. Conversation API methods are supported
+3. 🚧 under construction
 
 ## Installation
 
