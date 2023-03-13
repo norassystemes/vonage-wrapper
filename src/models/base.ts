@@ -353,6 +353,7 @@ const base = (main: Main, name: string) => {
       // if (!ids?.length) throw new Error("ids are required");
       if (!baseListUrl) throw new Error("baseListUrl is required");
       if (!extraSchema) extraSchema = z.any();
+      if (!ids) throw new Error("ids are required");
 
       const promises = [];
 

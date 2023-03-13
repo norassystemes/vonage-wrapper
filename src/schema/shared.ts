@@ -95,7 +95,7 @@ const Conversation = z.object({
    * Your internal conversation name. Must be unique
    * Example: customer_chat
    */
-  name: z.string(),
+  name: z.string().optional(),
   /**
    * The public facing name of the conversation
    * Example: Customer Chat
