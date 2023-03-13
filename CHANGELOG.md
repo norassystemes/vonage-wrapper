@@ -1,5 +1,12 @@
 # vonage-wrapper
 
+## 0.0.5
+
+### Patch Changes
+
+- aeca07a: allowed name on `conversation.create`
+- 3a973cf: fix
+
 ## 0.0.4
 
 ### Patch Changes
