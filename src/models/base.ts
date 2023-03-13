@@ -350,7 +350,7 @@ const base = (main: Main, name: string) => {
 
       const token = input.token || (await main.token());
 
-      if (!ids?.length) throw new Error("ids are required");
+      // if (!ids?.length) throw new Error("ids are required");
       if (!baseListUrl) throw new Error("baseListUrl is required");
       if (!extraSchema) extraSchema = z.any();
 

@@ -24,7 +24,7 @@ const Create = z.object({
       _Conversation.omit({
         id: true,
         /** Vonage override it anyway */
-        name: true,
+        // name: true,
         timestamp: true,
         sequence_number: true,
         state: true,
